@@ -1,2 +1,2 @@
-project_id  = "<PROJECT_ID>"
+project_id  = "jenkins-378305"
 server_name = "parameterizing-terraform"

@@ -1,5 +1,5 @@
-project_id  = "<PROJECT_ID>"
-server_name = "foreach"
+project_id  = "jenkins-378305"
+server_name = "for-each"
 
 network = "my-network"
 

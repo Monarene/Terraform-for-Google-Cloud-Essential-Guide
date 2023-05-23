@@ -1,6 +1,6 @@
 terraform {
-  backend "gcs" {
-    bucket = "<PROJECT_ID>-tf-state"
+  /* backend "gcs" {
+    bucket = "new-bucket-tfstate"
     prefix = "chap02/for-each"
-  }
+  } */
 }

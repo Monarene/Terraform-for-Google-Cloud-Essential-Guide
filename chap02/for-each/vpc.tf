@@ -5,7 +5,7 @@ resource "google_compute_network" "this" {
 
 resource "google_compute_subnetwork" "this" {
   # uncomment the next line for depends_on
-  # depends_on               = [resource.google_compute_network.this]
+  depends_on               = [resource.google_compute_network.this]
   for_each = var.subnets
   network  = var.network
   # Using the resource instead of the variable will make the the dependency explicit 

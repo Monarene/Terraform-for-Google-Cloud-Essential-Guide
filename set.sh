@@ -1,0 +1,1 @@
+cd /Users/michaelmekuleyi/Desktop/development/Terraform-for-Google-Cloud-Essential-Guide
