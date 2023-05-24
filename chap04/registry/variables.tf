@@ -15,14 +15,4 @@ variable "zone" {
   default     = "us-central1-a"
 }
 
-variable "server_name" {
-  type        = string
-  description = "Name of server"
-}
-
-variable "machine_type" {
-  type        = string
-  description = "Machine Type"
-  default     = "e2-micro"
-}
 
