@@ -1,7 +1,7 @@
 data "terraform_remote_state" "cloud_sql" {
   backend = "gcs"
   config = {
-    bucket = "<PROJECT_ID>-tf-state"
+    bucket = "new-bucket-tfstate"
     prefix = "chap05/remote-state/cloud-sql"
   }
 }
