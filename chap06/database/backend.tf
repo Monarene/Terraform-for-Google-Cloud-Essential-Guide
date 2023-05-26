@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "<PROJECT_ID>-tf-state"
+    bucket = "new-bucket-tfstate"
     prefix = "chap06/database"
   }
 }

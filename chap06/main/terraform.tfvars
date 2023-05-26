@@ -1,4 +1,4 @@
-project_id = "<PROJECT_ID>"
+project_id  = "jenkins-378305"
 
 load_balancer = {
   forward_rule_name    = "fwd-three-tier"

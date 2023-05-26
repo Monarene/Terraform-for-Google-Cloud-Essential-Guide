@@ -1,4 +1,4 @@
-project_id = "<PROJECT_ID>"
+project_id  = "jenkins-378305"
 services   = ["compute", "cloudresourcemanager", "sqladmin", "iam", "secretmanager"]
 
 network = "three-tier"
